@@ -64,7 +64,7 @@ ul {
 
 .li {
     padding: 4px 8px;
-    background:red;
+    background:black;
     border-radius: 50px;
     margin: 10px 0;
     display: flex;
@@ -74,6 +74,7 @@ ul {
     z-index: 5;
     width: 100%;
     text-transform: capitalize;
+    color: red;
 }
 
 .li:hover {
