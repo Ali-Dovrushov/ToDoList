@@ -20,6 +20,15 @@ function createElementAndDelete(value) {
     li.className = 'li'
     li.textContent = value
 
+    btn.className = 'btn'
+    btn.textContent = 'delete'
+
+    btn.addEventListener('click', (e) => {
+        result.removeChild(li)
+        a--
+        total.textContent = a
+    })
+
     li.addEventListener('click', (e) => {
         li.classList.toggle('li-active')
     })

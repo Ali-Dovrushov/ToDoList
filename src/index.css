@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 100px;
     background-image: url("./img/paris.jpg");
@@ -15,6 +16,7 @@ body {
     height: 500px;
     overflow: auto;
 }
+
 #input{
     width: 70%;
     margin-left: 13%;
@@ -29,6 +31,11 @@ body {
     width: 20%;
     margin-left: 40%;
 }
+
+.btn:hover {
+    background: yellow;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -41,12 +48,12 @@ ul {
 
 .Total {
     margin-left: 10px;
-    color: #f4f4f4;
+    color: #000;
 }
 
 .btn {
     background: white;
-    border: none;
+    border-radius: 50px;
     color: black;
     margin-left: 15px;
     padding: 10px;
@@ -69,6 +76,10 @@ ul {
     text-transform: capitalize;
 }
 
+.li:hover {
+    background: transparent;
+}
+
 .li-active {
     color: #f4f4f4;
     text-decoration: line-through;
@@ -77,5 +88,5 @@ ul {
 .li-active .btn {
     color: #555;
     text-decoration: line-through;
-    background: #000;
+    background: #f4f4f4;
 }
